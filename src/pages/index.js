@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
+
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
@@ -167,15 +168,9 @@ class Index extends React.Component {
                 
                 </p>
                 
-                    <ul className="actions">
-                      <li>
-                      <span className="button special">
-                      <Link  href="shorturl.at/lwLZ3" className="button special">
-                          Lire l'article
-                        </Link>
-                        </span>
-                      </li>
-                    </ul>
+                <a href="https://shorturl.at/lwLZ3" className="button special" > Lire l'article </a>
+
+                   
               </div>
               
               
@@ -389,7 +384,7 @@ class Index extends React.Component {
                 
               </ul>
               <p className="content">
-              Deux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
+              Deuux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
               un 3ème; perspectives d'évolution au sein de l'organsime.
               Ma formation d’ingénieur orientée R&D et Production et mes expériences acquises dans ce domaine ont développé mon goût pour
               l’organisation, le travail d’équipe et la maîtrise de la technologie.
@@ -420,9 +415,10 @@ class Index extends React.Component {
                                   <div className="col-12 text-left" >
                                       <Accordion data={AccordionData} whileHover={{ scale:1.2}} />
                                       <br/>
-                                      <Link to="shorturl.at/auEIM" className="button special">
-                          Brochure de la formation
-                        </Link>
+                                      <a href="https://shorturl.at/auEIM" className="button special" > Brochure de la formation </a>
+                                      
+                          
+                       
                                       
                                   </div>
                               </div>
@@ -449,9 +445,10 @@ class Index extends React.Component {
              <br/>
               
             
-            <Link to="shorturl.at/xITX0" className="butto">
-            Curriculum Vitae
-                        </Link>
+             <a href="https://shorturl.at/xITX0" className="butto" > Curriculum Vitae </a>
+
+
+                        
             
           </section>
          

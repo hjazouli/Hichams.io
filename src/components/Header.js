@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import logo from '../assets/images/logo.svg';
-import Blink from 'react-blink-text';
+
 
 
      
@@ -25,8 +25,7 @@ const Header = (props) => (
         
         
        
-        <Blink color='white' text='Get In touch with me !' fontSize='2em'>
-        </Blink> 
+        <h1> Get In touch with me </h1>
 
             
           

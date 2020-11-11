@@ -1,0 +1,53 @@
+{
+  "homepage": "http://hjazouli.github.io/HResume",
+  
+  "description": "Get in touch with me !",
+  "version": "1.0.0",
+  "author": "Hicham Jazouli",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "bootstrap": "^4.5.3",
+    "framer-motion": "^2.9.4",
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-manifest": "^2.4.37",
+    "gatsby-plugin-offline": "^3.0.37",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sass": "^2.3.22",
+    "gsap": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.0",
+    "react-accessible-accordion": "^3.3.3",
+    "react-blink-text": "^1.0.5",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-scroll-to-element": "^0.2.0",
+    "react-scrollspy": "^3.4.2",
+    "react-spring": "^8.0.27",
+    "react-waypoint": "^9.0.2",
+    "smooth-scrollbar": "^8.5.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}

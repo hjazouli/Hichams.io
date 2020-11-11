@@ -1,0 +1,177 @@
+
+
+/* Image */
+
+	.image {
+		border-radius: _size(border-radius);
+		border: 0.1em;
+		float : right;
+		shape-outside: circle();
+		padding: 2em 0em 2em 2em;
+		
+
+		img {
+			border-radius: _size(border-radius);
+			width: 280px;
+			height: 280px;
+			border-radius: 100%;
+		}
+
+		&.left,
+		&.right {
+			max-width: 40%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		&.fit {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.imagea {
+		border-radius: _size(border-radius);
+		border: 0.1em;
+		float : left;
+		
+		
+		padding: 0em 1em 0em 0em;
+		position: bottom;
+
+		img {
+			border-radius: _size(border-radius);
+			width: 25px;
+			height: 25px;
+			border-radius: 100%;
+		}
+
+		&.left,
+		&.right {
+			max-width: 40%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		&.fit {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.quota {
+		border-radius: _size(border-radius);
+		border: 0.1em;
+		float: inline-end;
+		
+		
+		
+		padding: 0em 1em 0em 0em;
+		position: bottom;
+
+		img {
+			border-radius: _size(border-radius);
+			width: 25px;
+			height: 25px;
+			border-radius: 100%;
+		}
+
+		&.left,
+		&.right {
+			max-width: 40%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		&.fit {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}

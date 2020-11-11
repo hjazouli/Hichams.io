@@ -1,0 +1,63 @@
+.custom-accordiom .accordiom-icon {
+    
+    
+    transition: all 0.5s;
+    
+    align-items: center;
+    background : url(<link href='https://css.gg/chevron-right.css' rel='stylesheet'>);
+    margin : 0em 1em -1em 1em ;
+    
+
+}
+
+.custom-accordiom .card-body {
+    display:  none;
+    
+    background-color : inherit ;
+    border: 0;
+    border-radius: 0.4rem ;
+    width: 270px;
+    margin : em 0em ;
+    padding : 0.95em 0.95em ;
+    border-color: rgb(61, 39, 9);
+    box-shadow: 0 2px 5px 0 rgb(0,0,0,0.2);
+    font-size: 0.76em;
+    line-height: 1.7em ;
+    
+}
+
+    
+
+
+.custom-accordiom .accordiom-active .card-body {
+    display: block;
+    margin : 0.5em 0.5em ;
+    width: 305px;
+}
+
+.accordiom-active .accordiom-icon {
+    transform: rotate(90deg);
+    
+    
+    transition: all 0.5s;
+    margin : 0em 1em -1em 1em ;
+    color : black ;
+}
+.custom-accordiom .card-header {
+    cursor: pointer;
+    border-color: black;
+    width: 320px;
+    background-color : rgba(186, 186, 186, 0.25) ;
+    border-radius: 0.5rem ;
+    margin : 0em 0em ;
+    font-size: 1em;
+    font-weight: normal;
+    padding : 0.3em 0.6em ;
+    border-color: rgb(61, 39, 9);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+

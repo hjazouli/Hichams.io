@@ -1,0 +1,110 @@
+///
+/// Stellar by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Spotlight */
+
+	.spotlight {
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		margin: 0em 0em;
+
+		.content {
+			
+			@include vendor('flex', '1');
+
+			> :last-child {
+				margin-bottom: 0;
+			}
+
+			header {
+				&.major {
+					margin: 0 0 0 0;
+				}
+			}
+			image {
+				position: relative; 
+				
+				margin-left: 2em;
+				margin-top: 0em;
+				padding: 0.3em;
+				border-radius: 100%;
+				border: solid 1px;
+				align : top;
+					width: 14em;
+					height: 14em;
+					float: right;
+					shape-outside: circle();
+	
+				img {
+					
+					border-radius: 100%;
+					width: 14em;
+					height: 14em;
+					float: right;
+				}
+			}
+		}
+
+		
+		.quote {
+			@include vendor('flex', '1');
+			display: bloc ;
+			margin-left: 2em;
+			padding: 0.3em;
+			border-radius: 100%;
+			border: solid 1px;
+
+				}
+			
+		
+
+		@include breakpoint(medium) {
+			@include vendor('flex-direction', 'column-reverse');
+			text-align: center;
+
+			.content {
+				@include vendor('flex', '0 1 auto');
+				width: 100%;
+
+				header {
+					&.major {
+						h2 {
+							&:after {
+								margin-left: auto;
+								margin-right: auto;
+							}
+						}
+					}
+				}
+			}
+
+			.image {
+				@include vendor('flex', '0 1 auto');
+				margin-left: 0;
+				margin-bottom: _size(element-margin);
+			}
+		}
+
+		@include breakpoint(small) {
+			.image {
+				padding: 0.35em;
+
+				img {
+					width: 12em;
+				}
+			}
+		}
+	}
+
+	@mixin color-spotlight($p: null) {
+		.spotlight {
+			.image {
+				border-color: _palette($p, border);
+			}
+		}
+	}
+
+	@include color-spotlight;

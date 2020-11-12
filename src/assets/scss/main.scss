@@ -1,98 +1,73 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import '../css/font-awesome.min.css';
+@import '../css/index.css';
+@import '../css/Tab.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
-/* Main */
+/*
 
-	#main {
-		@include color(invert);
-		border-radius: _size(border-radius-main);
+*/
 
-		> .main {
-			zoom: 100%;
-			@include padding(4em, 4em);
-			border-top: solid 1px _palette(invert, border);
-			margin: 1em 0em;
-			border-top: 2;
-			&:first-child {
-				border-top: 0;
-				margin: 0em 0em;
-			}
+	@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)',
+		xxsmall: '(max-width: 360px)'
+	));
 
-			> .image.main:first-child {
-				margin: -2em 0 0em 0em;
-				width: calc(90% + 10em);
-				border-top-right-radius: _size(border-radius-main);
-				border-top-left-radius: _size(border-radius-main);
-				border-bottom-right-radius: 0;
-				border-bottom-left-radius: 0;
-				padding-top: em;
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border',
+		grid: ( gutters: 1.5em ),
+		breakpoints: (
+			small: (
+				grid: ( gutters: 1em ),
+			)
+		)
+	));
 
-				img {
-					border-top-right-radius: _size(border-radius-main);
-					border-top-left-radius: _size(border-radius-main);
-					border-bottom-right-radius: 0;
-					border-bottom-left-radius: 0;
-				}
-			}
-		}
-
-		@include breakpoint(large) {
-			> .main {
-				@include padding(4em, 4em);
-
-				> .image.main:first-child {
-					margin: -4em 0 4em -4em;
-					width: calc(100% + 8em);
-				}
-			}
-		}
-
-		@include breakpoint(medium) {
-			> .main {
-				@include padding(4em, 3em);
-
-				> .image.main:first-child {
-					margin: -4em 0 4em -3em;
-					width: calc(100% + 6em);
-				}
-			}
-		}
-
-		@include breakpoint(small) {
-			> .main {
-				@include padding(3em, 2em);
-
-				> .image.main:first-child {
-					margin: -3em 0 2em -2em;
-					width: calc(100% + 4em);
-				}
-			}
-		}
-
-		@include breakpoint(xsmall) {
-			> .main {
-				@include padding(3em, 1.5em);
-
-				> .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
-					width: calc(100% + 3em);
-				}
-			}
-		}
-
-		@include breakpoint(xxsmall) {
-			border-radius: 0;
-
-			> .main {
-				@include padding(2.5em, 1em);
-
-				> .image.main:first-child {
-					margin: -2.5em 0 1.5em -1em;
-					width: calc(100% + 2em);
-					border-radius: 0;
-
-					img {
-						border-radius: 0;
-					}
-				}
-			}
-		}
+	@mixin color($p) {
+		@include color-typography($p);
+		@include color-box($p);
+		@include color-button($p);
+		@include color-form($p);
+		@include color-icon($p);
+		@include color-list($p);
+		@include color-section($p);
+		@include color-table($p);
+		@include color-spotlight($p);
 	}
+
+// Base.
+
+	@import 'base/page';
+	@import 'base/typography';
+
+// Component.
+
+	@import 'components/box';
+	@import 'components/button';
+	@import 'components/buttona';
+	@import 'components/form';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/section';
+	@import 'components/table';
+	@import 'components/features';
+	@import 'components/statistics';
+	@import 'components/spotlight';
+	
+	
+// Layout.
+
+	@import 'layout/header';
+	@import 'layout/nav';
+	@import 'layout/main';
+	@import 'layout/footer';
+	@import 'layout/wrapper';

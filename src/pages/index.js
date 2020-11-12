@@ -315,7 +315,7 @@ class Index extends React.Component {
                   En tant qu'ingénieur Electromécanique combinant 4 disciplines majeures : 
                   </p>
                  
-                  <br/><br/> <br/>
+                  <br/>
                   <dl className="alt">
                   
                       <dt>Mécanique</dt>

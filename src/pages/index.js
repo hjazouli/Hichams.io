@@ -307,14 +307,14 @@ class Index extends React.Component {
               <h2>Domaines de Compétence :</h2>
               </header>
 
-                  <h6>
+                  
                   Avec une formation assez solide et pluridisciplinaire, enrichie avec des expériences 
                   professionnelles, j'ai pu développer plusieurs compétences, dans plusieurs disciplnes, pour sculpter un profil 
                   qui répond amplement aux exigences du marché d'emploi.
                   En tant qu'ingénieur Electromécanique combinant 4 disciplines majeures : 
                   
-                  </h6>
-                  <br/><br/>
+                 
+                  <br/><br/> <br/>
                   <dl className="alt">
                   
                       <dt>Mécanique</dt>

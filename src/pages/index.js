@@ -168,7 +168,7 @@ class Index extends React.Component {
                 
                 </p>
                 
-                <a href="https://shorturl.at/lwLZ3" className="button special" > Lire l'article </a>
+                <a href="https://www.leconomiste.com/article/995717-automobile-aeronautique-les-bons-eleves-de-l-industrie" className="button special" > Lire l'article </a>
 
                    
               </div>
@@ -415,7 +415,7 @@ class Index extends React.Component {
                                   <div className="col-12 text-left" >
                                       <Accordion data={AccordionData} whileHover={{ scale:1.2}} />
                                       <br/>
-                                      <a href="https://shorturl.at/auEIM" className="button special" > Brochure de la formation </a>
+                                      <a href="https://drive.google.com/file/d/1w0AAxCvSxMZz0DiPt6saYHi4d9k291TQ/view?usp=sharing" className="button special" > Brochure de la formation </a>
                                       
                           
                        
@@ -445,7 +445,7 @@ class Index extends React.Component {
              <br/>
               
             
-             <a href="https://shorturl.at/xITX0" className="butto" > Curriculum Vitae </a>
+             <a href="https://drive.google.com/file/d/1NlQaKfN7XWJyvrUECZ85qveGSdD9ZsBb/view?usp=sharing" className="butto" > Curriculum Vitae </a>
 
 
                         

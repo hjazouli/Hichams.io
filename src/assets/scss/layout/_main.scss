@@ -1,16 +1,19 @@
 
 /* Main */
+@import 'libs/mixins';
 
 	#main {
-		@include color(invert);
+		@include color(invert)
 		border-radius: _size(border-radius-main);
-
+		border-top: 0.01rem solid grey;
+		
 		> .main {
 			zoom: 100%;
-			@include padding(4em, 4em);
-			border-top: solid 1px _palette(invert, border);
+			@include padding(3em, 4em);
+			border: 0.1rem solid rgb(225, 225, 225);
+			border-radius: _size(border-radius-main);
 			margin: 1em 0em;
-			border-top: 2;
+			
 			&:first-child {
 				border-top: 0;
 				margin: 0em 0em;
@@ -23,7 +26,7 @@
 				border-top-left-radius: _size(border-radius-main);
 				border-bottom-right-radius: 0;
 				border-bottom-left-radius: 0;
-				padding-top: em;
+				padding-top: 1em;
 
 				img {
 					border-top-right-radius: _size(border-radius-main);

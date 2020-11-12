@@ -185,10 +185,10 @@ class Index extends React.Component {
           <section id="first" className="main special">
             <header className="major">
               <h2>Expériences Professionnelles :</h2></header>
-            <h6>
+            <p>
              Dans mon parcours académique j'ai pu accumuler des expériencess professionnelles intéressantes, diversifiées, dans plusieurs domaines
              d'industrie. Ces premières expériences m’ont permis de développer mon esprit d’analyse et de synthèse, qui me permet d’identifier et de résoudre les problèmes de manière efficace, et d’apporter mon expertise dans le domaine.
-             J’ai pu ainsi affûter mon esprit d’analyse, mon sens de rigueur et ma prise de recul, qui constituent des atouts vitaux pour le métier de l’ingénieur.</h6>
+             J’ai pu ainsi affûter mon esprit d’analyse, mon sens de rigueur et ma prise de recul, qui constituent des atouts vitaux pour le métier de l’ingénieur.</p>
              
             <ul className="features">
               
@@ -308,12 +308,12 @@ class Index extends React.Component {
               <h2>Domaines de Compétence :</h2>
               </header>
 
-                  
+                  <p>
                   Avec une formation assez solide et pluridisciplinaire, enrichie avec des expériences 
                   professionnelles, j'ai pu développer plusieurs compétences, dans plusieurs disciplnes, pour sculpter un profil 
                   qui répond amplement aux exigences du marché d'emploi.
                   En tant qu'ingénieur Electromécanique combinant 4 disciplines majeures : 
-                  
+                  </p>
                  
                   <br/><br/> <br/>
                   <dl className="alt">
@@ -386,7 +386,7 @@ class Index extends React.Component {
                 
               </ul>
               <p className="content">
-              Deuux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
+              Deux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
               un 3ème; perspectives d'évolution au sein de l'organsime.
               Ma formation d’ingénieur orientée R&D et Production et mes expériences acquises dans ce domaine ont développé mon goût pour
               l’organisation, le travail d’équipe et la maîtrise de la technologie.
@@ -402,7 +402,7 @@ class Index extends React.Component {
                 
                       <motion.div className="row justify-content-center"  >
                           <div className="col-lg-6 text-center">
-                          <h6>
+                          <p>
                           Les grands constructeurs ont besoin d’ingénieurs pour trouver de nouveaux produits, de nouvelles technologies,
                           de nouveaux procédés de fabrication, mais aussi pour faire des essais, organiser la production, étudier le marché.
                           Dans cette perspective s'inscrit essentiellement l'approche de ma formation en tant qu'ingénieur en Electromécanique.<br/><br/>
@@ -410,7 +410,7 @@ class Index extends React.Component {
                           A l'issue de formation alliant une diversité de champs industriels. Je suis doté d'une capacité de compréhension des nouveaux 
                           enjeux liés aux domaines de l'automobile et aéronautique, Capacité à piloter des projets innovants sur des sujets de pointe, 
                           Compréhension des enjeux liés à ces technologies.
-                  </h6>
+                  </p>
 
                                    
                               <div className="row justify-content-center">

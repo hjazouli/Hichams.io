@@ -2,9 +2,8 @@
 /* Main */
 
 	#main {
-		@include color(invert)
+		@include color(invert);
 		border-radius: _size(border-radius-main);
-		border-top: 0.01rem solid grey;
 
 		> .main {
 			zoom: 100%;

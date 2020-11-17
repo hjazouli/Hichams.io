@@ -20,7 +20,6 @@ import Nav from '../components/Nav'
 
 
 
-
 import Accordion from "../components/Accordion/index"
 import Accordiom from "../components/Accordiom/index"
 import "../components/Accordion/index.css"
@@ -35,7 +34,7 @@ import "../components/Accordiom/index.css"
 
 const AccordionData = [
   {
-      title: "Ecole Nationale Superieure des Mines Rabat  des Mines  ",
+      title: "Ecole Nationale Superieure des Mines Rabat  -  [ENSMR] ",
       
       content: "L'option Electromécanique et Maintenance Industrielle est conçue pour former des ingénieurs spécialisés dans les domaines de l'informatique électrique, mécanique, automatique et industrielle. Le contenu de la formation assure une certaine polyvalence permettant à ces ingénieurs d'être immédiatement opérationnels en milieu industriel. En tant qu'ingénieur de cette branche, je pourrai exercer ma profession de: Ingénieur recherche et développement, Ingénieur en production. (À long terme) Chef de projet dans des sociétés d'ingénierie. (À long terme) En tant que lauréat de cette branche, je suis qualifié pour des emplois dans des domaines combinant électricité, électronique, automatisme et mécanique.",
       
@@ -141,9 +140,12 @@ class Index extends React.Component {
                       <h2>Une passion pour les technologies de pointe</h2>
                       </motion.div>
                     </header>
-                    <motion.span className="image" whileHover={{ scale:1.1}}>
-                    <img src={pic01} alt="" text="ANA"/> 
-                    </motion.span>
+
+                   
+                    <img className="image" src={pic01} alt="" text="ANA" whileHover={{ scale:1.1}}/> 
+                    
+
+
                     <motion.span className="imagea" whileHover={{ scale:1.1}}>
                     <img src={Lampe} alt="" text="ANA"/> 
                     </motion.span>
@@ -169,7 +171,6 @@ class Index extends React.Component {
                 
                 </p>
                 
-      
                 <a href="https://www.leconomiste.com/article/995717-automobile-aeronautique-les-bons-eleves-de-l-industrie" className="button special" > Lire l'article </a>
 
                    
@@ -185,10 +186,10 @@ class Index extends React.Component {
           <section id="first" className="main special">
             <header className="major">
               <h2>Expériences Professionnelles :</h2></header>
-            <p>
+            <h6>
              Dans mon parcours académique j'ai pu accumuler des expériencess professionnelles intéressantes, diversifiées, dans plusieurs domaines
              d'industrie. Ces premières expériences m’ont permis de développer mon esprit d’analyse et de synthèse, qui me permet d’identifier et de résoudre les problèmes de manière efficace, et d’apporter mon expertise dans le domaine.
-             J’ai pu ainsi affûter mon esprit d’analyse, mon sens de rigueur et ma prise de recul, qui constituent des atouts vitaux pour le métier de l’ingénieur.</p>
+             J’ai pu ainsi affûter mon esprit d’analyse, mon sens de rigueur et ma prise de recul, qui constituent des atouts vitaux pour le métier de l’ingénieur.</h6>
              
             <ul className="features">
               
@@ -308,14 +309,14 @@ class Index extends React.Component {
               <h2>Domaines de Compétence :</h2>
               </header>
 
-                  <p>
+                  
                   Avec une formation assez solide et pluridisciplinaire, enrichie avec des expériences 
                   professionnelles, j'ai pu développer plusieurs compétences, dans plusieurs disciplnes, pour sculpter un profil 
                   qui répond amplement aux exigences du marché d'emploi.
                   En tant qu'ingénieur Electromécanique combinant 4 disciplines majeures : 
-                  </p>
-                 
-                  <br/>
+                  
+                  
+                  <br/><br/> <br/>
                   <dl className="alt">
                   
                       <dt>Mécanique</dt>
@@ -386,7 +387,7 @@ class Index extends React.Component {
                 
               </ul>
               <p className="content">
-              Deux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
+              Deuux critères principaux orientent un choix dans ma carrière  : Intégrer une grande entreprise et opter pour un « métier d’avenir », et je pourrai ajouter 
               un 3ème; perspectives d'évolution au sein de l'organsime.
               Ma formation d’ingénieur orientée R&D et Production et mes expériences acquises dans ce domaine ont développé mon goût pour
               l’organisation, le travail d’équipe et la maîtrise de la technologie.
@@ -399,10 +400,7 @@ class Index extends React.Component {
                   <header className="major">
                     <h2>Formation Académique :</h2>
                     </header>
-                
-                      <motion.div className="row justify-content-center"  >
-                          <div className="col-lg-6 text-center">
-                          <p>
+                    <p>
                           Les grands constructeurs ont besoin d’ingénieurs pour trouver de nouveaux produits, de nouvelles technologies,
                           de nouveaux procédés de fabrication, mais aussi pour faire des essais, organiser la production, étudier le marché.
                           Dans cette perspective s'inscrit essentiellement l'approche de ma formation en tant qu'ingénieur en Electromécanique.<br/><br/>
@@ -410,18 +408,17 @@ class Index extends React.Component {
                           A l'issue de formation alliant une diversité de champs industriels. Je suis doté d'une capacité de compréhension des nouveaux 
                           enjeux liés aux domaines de l'automobile et aéronautique, Capacité à piloter des projets innovants sur des sujets de pointe, 
                           Compréhension des enjeux liés à ces technologies.
-                  </p>
-
-                                   
+                    </p>
+                    
+                      <motion.div className="row justify-content-center"  >
+                         
+            
                               <div className="row justify-content-center">
                                   <div className="col-12 text-left" >
                                       <Accordion data={AccordionData} whileHover={{ scale:1.2}} />
                                       <br/>
                                       <a href="https://drive.google.com/file/d/1w0AAxCvSxMZz0DiPt6saYHi4d9k291TQ/view?usp=sharing" className="button special" > Brochure de la formation </a>
-                                      
-                          
-                       
-                                      
+
                                   </div>
                               </div>
 
@@ -431,7 +428,7 @@ class Index extends React.Component {
                                   </div>
                                   
                               </div>
-                          </div>
+                          
                       </motion.div>
   
                     

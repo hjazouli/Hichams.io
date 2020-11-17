@@ -26,24 +26,28 @@
 			}
 			image {
 				position: relative; 
-				
-				margin-left: 2em;
-				margin-top: 0em;
 				padding: 0.3em;
 				border-radius: 100%;
 				border: solid 1px;
 				align : top;
-					width: 14em;
-					height: 14em;
+					width: 40%;
+					height: auto;
 					float: right;
 					shape-outside: circle();
 	
 				img {
 					
 					border-radius: 100%;
-					width: 14em;
-					height: 14em;
+					position: relative; 
+					padding: 0.3em;
+					border-radius: 100%;
+					border: solid 1px;
+					width: 80%;
+					height: auto;
 					float: right;
+					shape-outside: circle();
+					
+					
 				}
 			}
 		}
@@ -83,8 +87,9 @@
 
 			.image {
 				@include vendor('flex', '0 1 auto');
-				margin-left: 0;
-				margin-bottom: _size(element-margin);
+				width: 50%;
+				padding: 0% 0% 0% 1rem;
+				height: auto;
 			}
 		}
 
@@ -93,7 +98,8 @@
 				padding: 0.35em;
 
 				img {
-					width: 12em;
+					width: 40%;
+					height: auto;
 				}
 			}
 		}
